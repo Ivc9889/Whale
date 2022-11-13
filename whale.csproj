@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="MainWindow.xaml.cs~RF125e4d8d.TMP" />
+		<None Remove="Resource\Bg.png" />
+		<None Remove="Resource\folderIcon.JPG" />
+		<None Remove="Resource\loading.gif" />
+		<None Remove="Resource\logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Resource\Bg.png" />
+	  <Resource Include="Resource\folderIcon.JPG" />
+	  <Resource Include="Resource\loading.gif" />
+	  <Resource Include="Resource\logo.png" />
+	</ItemGroup>
+
+</Project>
